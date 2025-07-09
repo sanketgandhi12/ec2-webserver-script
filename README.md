@@ -1,4 +1,4 @@
-'''
+```
 #!/bin/bash
 yum update -y
 yum install httpd -y
@@ -8,4 +8,4 @@ usermod -a -G apache ec2-user
 chmod 777 /var/www/html
 cd /var/www/html
 echo "<h1>hello from $(hostname -f) webserver</h1>">/var/www/html/index.html
-'''
+```
